@@ -1,0 +1,12 @@
+<view class="container" id="wrapper">
+  <text class="title draw" data-text="Hello there">Hello there</text>
+  <text class="info draw" data-text="小程序是一种新的开放能力，开发者可以快速地开发一个小程序。">
+   小程序是一种新的开放能力，开发者可以快速地开发一个小程序。
+  </text>
+  <view class="image-wrapper draw">
+    <image class="draw" src="../../assets/demo.jpg"/>
+  </view>
+  
+  <button class="generate-btn" bindtap="drawCanvas">generate</button>
+</view>
+<canvas canvas-id="canvas-map" class="share-canvas"></canvas>
