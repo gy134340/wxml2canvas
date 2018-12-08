@@ -310,7 +310,7 @@ const drawViewArcBorder = (context, imgData) => {
   const { width, height, left, top, backgroundColor, border } = imgData
   const { borderRadius } = getBorderRadius(imgData)
   const { borderWidth, borderColor } = getBorderAttributes(border)
-  console.log('🐞-imgData', imgData)
+  // console.log('🐞-imgData', imgData)
   context.beginPath()
   context.moveTo(left + borderRadius, top)
   context.lineTo(left + width - borderRadius, top)
@@ -355,7 +355,6 @@ const drawViewBezierBorder = (context, imgData) => {
   const { width, height, left, top, backgroundColor, border } = imgData
   const { borderWidth, borderColor } = getBorderAttributes(border)
   const { borderRadiusX, borderRadiusY } = getBorderRadius(imgData)
-  console.log('🐞-imgData', imgData)
   context.beginPath()
   context.moveTo(left + borderRadiusX, top)
   context.lineTo(left + width - borderRadiusX, top)

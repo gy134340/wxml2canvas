@@ -13,7 +13,6 @@
   margin-bottom: 10px;
 
 }
-
 .container .info {
   font-size: 14px;
   line-height: 18px;
@@ -21,7 +20,6 @@
   text-align: left;
   margin-bottom: 40px;
 }
-
 .container .image-wrapper image {
   width: 100%;
 }
