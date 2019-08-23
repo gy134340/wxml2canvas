@@ -1,5 +1,7 @@
 ### wxml2canvas
 
+> this repo isn't under maintaining now, fork and do whatever you want
+
 #### Why
 
 某些场景需要通过 canvas 绘制一些图片， 其中包含一些文字、可能的二维码等等。
